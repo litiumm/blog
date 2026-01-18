@@ -1,0 +1,3 @@
+[submodule "themes/kirifuji"]
+	path = themes/kirifuji
+	url = https://codeberg.org/yukari/kirifuji-zola.git

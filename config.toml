@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+title = "KernalLog"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "kirifuji"
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+navigationMenu = [
+    { name = "blog", path = "/blog"},
+    { name = "art", path = "/art"},
+    { name = "contact", path = "/contact"},
+    { name = "misc.", path = "/misc"}
+]
